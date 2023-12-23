@@ -1,0 +1,22 @@
+
+
+
+.input-box {
+    padding: 13px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+  }
+  .edit{
+    text-align: center;
+  }
+  .rem{
+    display: flexbox;
+  }
+
+  /* .button-container {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+    margin-top: 10px;
+  } */
