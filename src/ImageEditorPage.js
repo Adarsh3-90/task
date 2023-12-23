@@ -20,7 +20,7 @@ const ImageEditorPage = ({ image }) => {
 
   return (
     <Col xs={12} md={4} lg={3} className="mb-4">
-      <Card style={{ width: '100%', backgroundColor: 'blue' }}>
+      <Card style={{ width: '100%', backgroundColor: 'blue',height:"200px" }}>
         <Card.Img variant='top' src={image.urls.small} alt={image.alt_description} style={{ maxWidth: '100%' }} />
         <Card.Body>
           <Button onClick={handleButtonClick} variant='primary'  style={buttonStyle} >
